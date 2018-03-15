@@ -48,6 +48,44 @@ enum TokenID
 };
 
 
+//Token Class to hold tokenID, tokenInstance, and lineNumber
+//the public functions will be to retrieve each variable
+class Token
+{
+private:
+	TokenID tokenID;
+	string tokenInstance;
+	int lineNumber;
 
+public:
+	//constructor
+	Token(TokenID tokenID, string tokenInstance, int lineNumber);
+	
+	//destructor
+	~Token();
+
+	//get functions
+	TokenID getTokenID();
+	string getTokenInstance();
+	int getLineNumber();
+
+	//print function
+	string printTokenInfo();		
+};
 
 #endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
