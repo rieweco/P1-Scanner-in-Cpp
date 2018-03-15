@@ -8,7 +8,7 @@
 using namespace std;
 
 //token enum for identifying available tokens used for the scanner
-enum TokenType
+enum TokenID
 {
 	identifier, // max 8 chars, begin with lowercase letter, followed by letters/digits
 	keywordStart, // start
