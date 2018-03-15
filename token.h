@@ -73,6 +73,12 @@ public:
 	string printTokenInfo();		
 };
 
+
+//function to create a string to represent the tokenID enum
+//this string will be used in the printTokenInfo() function in Token Class
+string enumToString(TokenID token);
+
+
 #endif
 
 
