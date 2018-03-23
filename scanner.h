@@ -22,7 +22,7 @@ class Scanner
 	//function to read line in file and scan each character one at a time
 	//this will compare the character read to the tokenID enum
 	//function will return a Token Class of the scanned character
-	Token readNextCharacter(string fileString, int line, int charIndex);
+	Token *getToken(string &file, int index, int lineNumber);
 };
 
 
